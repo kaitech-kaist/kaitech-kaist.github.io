@@ -1,0 +1,22 @@
+body {
+  background-color: #12161d;
+}
+
+h1 {
+  font-family: 'Red Hat Display', sans-serif;
+  text-align: center;
+  font-size: 8rem;
+  background: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.center {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
