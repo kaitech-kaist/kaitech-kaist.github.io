@@ -1,11 +1,12 @@
 body {
-  background-color: #12161d;
+  background: linear-gradient(150deg, #12161d, #020203);
 }
 
 h1 {
-  font-family: 'Red Hat Display', sans-serif;
   text-align: center;
+  font-family: "Red Hat Display", sans-serif;
   font-size: 8rem;
+  font-weight: 900;
   background: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
   -webkit-background-clip: text;
   background-clip: text;
@@ -19,4 +20,23 @@ h1 {
   align-items: center;
   justify-content: center;
   display: flex;
+  flex-direction: column;
+}
+
+.panel {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn {
+  font-size: 3rem;
+  text-decoration: none;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  color: #a6c0fe;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  color: #f68084;
 }
