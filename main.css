@@ -3,6 +3,7 @@ body {
 }
 
 h1 {
+  margin: 0 0;
   text-align: center;
   font-family: "Red Hat Display", sans-serif;
   font-size: 8rem;
@@ -26,6 +27,7 @@ h1 {
 .panel {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .btn {
@@ -35,6 +37,8 @@ h1 {
   font-weight: 500;
   color: #a6c0fe;
   transition: 0.3s;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .btn:hover {
