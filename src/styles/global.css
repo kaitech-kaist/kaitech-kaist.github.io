@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat'), url(../fonts/Montserrat-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'RedHatDisplay';
+    src: local('RedHatDisplay'), url(../fonts/RedHatDisplay-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'RedHatDisplay';
+    src: local('RedHatDisplay'), url(../fonts/RedHatDisplay-Bold.ttf) format('truetype');
+    font-weight: bold;
+  }
+  
+
+.main-content {
+    
+}
