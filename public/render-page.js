@@ -1899,7 +1899,7 @@ var plugins = [{
     "remarkPlugins": [],
     "rehypePlugins": [],
     "mediaTypes": ["text/markdown", "text/x-markdown"],
-    "root": "/home/abdirakhman/Project/kaitech"
+    "root": "/home/abdirakhman/Project/kaitech-kaist.github.io"
   }
 }]; // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
@@ -9185,24 +9185,24 @@ if (false) {} else {
 /***/ }),
 
 /***/ "react-dom/server":
-/*!*************************************************************************************!*\
-  !*** external "/home/abdirakhman/Project/kaitech/node_modules/react-dom/server.js" ***!
-  \*************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** external "/home/abdirakhman/Project/kaitech-kaist.github.io/node_modules/react-dom/server.js" ***!
+  \*****************************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("/home/abdirakhman/Project/kaitech/node_modules/react-dom/server.js");;
+module.exports = require("/home/abdirakhman/Project/kaitech-kaist.github.io/node_modules/react-dom/server.js");;
 
 /***/ }),
 
 /***/ "react":
-/*!********************************************************************************!*\
-  !*** external "/home/abdirakhman/Project/kaitech/node_modules/react/index.js" ***!
-  \********************************************************************************/
+/*!************************************************************************************************!*\
+  !*** external "/home/abdirakhman/Project/kaitech-kaist.github.io/node_modules/react/index.js" ***!
+  \************************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("/home/abdirakhman/Project/kaitech/node_modules/react/index.js");;
+module.exports = require("/home/abdirakhman/Project/kaitech-kaist.github.io/node_modules/react/index.js");;
 
 /***/ }),
 

@@ -13,9 +13,29 @@
     font-family: 'RedHatDisplay';
     src: local('RedHatDisplay'), url(../fonts/RedHatDisplay-Bold.ttf) format('truetype');
     font-weight: bold;
-  }
-  
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'), url(../fonts/Roboto-Regular.ttf) format('truetype');
+}  
 
 .main-content {
     
+}
+
+.text-gradient {
+    background: linear-gradient(147.36deg, #8AFF80 14.55%, #80FFEA 79.38%, #80FFEA 79.39%);
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+}
+
+.grad {
+    mask-image: linear-gradient(250.64deg, #1D1E26 21.56%, rgba(0, 0, 0, 0) 155.85%);
+    -webkit-mask-image: linear-gradient(250.64deg, #1D1E26 21.56%, rgba(0, 0, 0, 0) 155.85%);
+}
+
+.main-content-left {
+    background-image: linear-gradient(250.64deg, #1D1E26 21.56%, rgba(0, 0, 0, 0) 155.85%),  url("../images/kaist_new.png");
 }
